@@ -5,6 +5,6 @@ brew install curl
 brew install imagemagick
 brew install jq
 defaults write com.apple.screencapture disable-shadow -bool true
-killall SystemUIServer
 mkdir ~/screenshots
 defaults write com.apple.screencapture location ~/screenshots/
+killall SystemUIServer
